@@ -1,0 +1,79 @@
+.playlist-imdb {
+  margin: 10px;
+}
+
+.playlist-imdb .playlist-imdb-image {
+  float: left;
+}
+
+.playlist-imdb .playlist-imdb-info {
+  margin-left: 70px;
+}
+
+.playlist-imdb .rating-list {
+  background: transparent;
+  margin-top: 4px;
+  border: 1px solid #efefef;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  padding: 3px 3px 1px 4px;
+  width: 198px;
+  height: 13px;
+  font-size: 11px;
+  text-align: left;
+}
+
+.playlist-imdb .rating-cancel, .rating-rating, .rating-stars, .rating-imdb, .rating .rating-error-icon, .rating-bg {
+  position: absolute;
+  margin: 0px;
+}
+
+.playlist-imdb .rating-list .rating-bg, .rating-list .rating-imdb, .rating-list .rating-cancel, .rating-list .rating-stars .rating-your, .rating-list .rating-stars .rating-hover, .rating-list .rating-ineligible a, .rating-list .rating-error-icon {
+  background: url(http://www.imdb.com/images/SFa9def4143640c58fac12274ff9b66e39/rating/rating-list/sprite.png) repeat-x;
+  height: 13px;
+}
+
+.playlist-imdb .rating-list .rating-bg {
+  width: 140px;
+  background-position: 0 -27px;
+}
+
+.playlist-imdb .rating-list .rating-imdb {
+  background-position: 0 -41px;
+}
+
+.playlist-imdb .rating-stars {
+  z-index: 3;
+}
+
+.playlist-imdb .rating a {
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+
+.playlist-imdb .rating-list .rating-stars a {
+  width: 14px;
+}
+
+.playlist-imdb .rating a span {
+  visibility: hidden;
+}
+
+.playlist-imdb .rating-list .rating-rating {
+  margin: -1px 0 0 143px;
+  width: 40px;
+  font-size: 11px;
+}
+
+.playlist-imdb .rating-rating {
+  text-align: right;
+  font-weight: bold;
+  color: #a58600;
+}
+
+.playlist-imdb .rating-list .rating-cancel {
+  width: 14px;
+  background-position: 0 0;
+}
